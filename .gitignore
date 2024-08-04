@@ -1,9 +1,6 @@
-core.Microsoft*
-core.mongo*
-core.python*
-env.py
+inputs/cherry_leaves_dataset/cherry-leaves/test
+inputs/cherry_leaves_dataset/chearry-leaves/train
+kaggle.json
+*.ipynb
 __pycache__/
-*.py[cod]
-node_modules/
-.github/
-cloudinary_python.txt
+
