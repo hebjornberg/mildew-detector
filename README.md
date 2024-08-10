@@ -6,7 +6,7 @@ The app is built around a supervised ML model that performs binary classificatio
 
 [Live Application](https://hb-mildew-detection-3fcc7e940ca3.herokuapp.com/)
 
-![Device Mockup](/mildew-detector/docs/images/device-mockup.png)
+![Device Mockup](/workspace/mildew-detector/docs/images/device-mockup.png)
 
 ## Dataset Content
 
@@ -67,5 +67,35 @@ The business requirements for the application from client was the following:
 
 ## Dashboard design 
 
+In order to visualize and make the application user friendly, a dashboard of 5 pages was created with Streamlit. A summary of the 5 pages follows below: 
+
 ### Page 1: Quick Project Summary 
 
+General Information:  
+
+-  Powdery mildew in cherry leaves are caused by the fungus Podosphaera clandestina. Powdery mildew appears as 
+   patches of white, a powdery substance or a fungus-like growth.
+   In order to determine whether a cherry tree is infested with powdery mildew, individual leaves are collectedand examined. Visual criteria are used to detect powdery mildew. This in order to save manual labour by doing a manual check of cherry trees individually. 
+
+Project Dataset
+
+-  The available dataset contains 4208 images from collected samples from cherry trees, that are healthy,as well  
+   as infested with powdery mildew.
+
+The project has 2 business requirements:
+
+   1. The client is interested in conducting a study to visually differentiate a cherry leaf that is healthy from 
+      one that contains powdery mildew.
+   2. The client is interested in predicting if a cherry tree is healthy or contains powdery mildew.
+
+### Page 2: Image Study of Cherry Leaves 
+
+Cherry Leaf Visualizer
+
+   * The client is interested in having a study that visually differentiates a healthy cherry leaf from a cherry leaf infested with powdery mildew.
+
+      - Difference between average and variability image
+      - Differences between average leaf with powdery mildew and average healthy leaf
+      - Image Montage 
+
+### Page 3: 
