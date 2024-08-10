@@ -71,6 +71,8 @@ In order to visualize and make the application user friendly, a dashboard of 5 p
 
 ### Page 1: Quick Project Summary 
 
+![image]
+
 General Information:  
 
 -  Powdery mildew in cherry leaves are caused by the fungus Podosphaera clandestina. Powdery mildew appears as 
@@ -90,6 +92,8 @@ The project has 2 business requirements:
 
 ### Page 2: Image Study of Cherry Leaves 
 
+![image]
+
 Cherry Leaf Visualizer
 
    * The client is interested in having a study that visually differentiates a healthy cherry leaf from a cherry leaf infested with powdery mildew.
@@ -98,4 +102,36 @@ Cherry Leaf Visualizer
       - Differences between average leaf with powdery mildew and average healthy leaf
       - Image Montage 
 
-### Page 3: 
+### Page 3: Mildew Detection
+
+![image]
+
+   * The client is interested in telling whether a given cherry leaf contains powdery mildew or not.
+
+   Upload image of cherry leaf: Ability to upload an image of a cherry leaf with the format of JPG or JPEG for prediction of contamination with powdery mildew. 
+
+### Page 4: Project Hypothesis 
+
+![image]
+
+Project Hypothesis and Validation
+
+   * We suspect cherry leaves with powdery mildew to have clear marks/signs, spread in small patches over the leaf, that can differentiate them from a healthy leaf.
+
+   * An Image Montage shows that typically a mildew infested leaf has white-ish marks across it. Average Image, Variability Image and Difference between Averages studies did not reveal any clear pattern to differentiate one from another.
+
+### Page 5: ML Performance Metrics
+
+* Train, Validation and Test Set: Label Frequencies 
+
+![image]
+
+* Model History 
+
+![image]
+
+* Generalised Performance on Test Set 
+
+![image]
+
+    
