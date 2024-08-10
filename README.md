@@ -6,7 +6,7 @@ The app is built around a supervised ML model that performs binary classificatio
 
 [Live Application](https://hb-mildew-detection-3fcc7e940ca3.herokuapp.com/)
 
-![Device Mockup](/workspace/mildew-detector/docs/images/device-mockup.png)
+![Device Mockup](/mildew-detector/docs/images/device-mockup.png)
 
 ## Dataset Content
 
