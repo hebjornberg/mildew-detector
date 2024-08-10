@@ -134,4 +134,12 @@ Project Hypothesis and Validation
 
 ![image]
 
+## Bugs 
+
+## Deployment 
+
+## Main Data Analysis and Machine Learning Libraries 
+
+## Credits 
+
     
