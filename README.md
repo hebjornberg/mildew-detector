@@ -14,5 +14,41 @@ The app is built around a supervised ML model that performs binary classificatio
 
 * The dataset consists of over 4000 images taken of healthy and mildew infested cherry leaves, collected from the company Farmy & Foods' cherry crops. Cherry tress can be infected with the fungus Podosphaera clandestina, resulting in powdery mildew on the leaves. To check the trees manually for mildew is a tedious, time-consuming process for employees. The application was designed to streamline the process. When mildew is being detected in an individual of the crops, a compound can be applied to kill the fungus. 
 
+## Business requirements 
 
+The business requirements for the application from client was the following: 
 
+1. The client is interested in conducting a study to visually differentiate a cherry leafthat is healthy from one that contains powdery mildew.
+
+2. The client is interested in predicting if a cherry tree is healthy or contains powdery mildew.
+
+## Hypothesis and how to validate
+
+- Cherry leaves infected with powdery mildew is expected to have clear marks/signs, spread in patches over the leaf, that can differentiate them from healthy leaves. 
+
+- An Image Montage shows that typically a mildew infested leaf has white-ish marks across it. Although, Average Image, Variability Image and Difference between Averages studies did not reveal any clear pattern to differentiate one from another.
+
+## Rationale to map the business requirements to the Data Visualizations and ML tasks
+
+### Business requirement 1: Data Visualization 
+
+1. Display mean and standard deviation: 
+   * Show statistics for healthy leaves and leaves infested with powdery mildew 
+   * Implement visual differentiation between the two types 
+
+2. Compare average leaves: 
+   * Display the difference between an average healthy leaf and an average mildew infested leaf 
+   * Visualize the distinction between the two types
+
+3. Create image montages: 
+   * Provide montages of healthy cherry leaves and leaves infested with powdery mildew
+   * Visualize the differentation between the two types
+
+### Business requirement 2: Image Classification 
+
+1. Predict leaf health: 
+   * Develop capability to determine whether a a given cherry leaf is healthy or infested with powdery mildew 
+
+2. Model development and reporting: 
+   * Build a machine learning model 
+   * Generate adequate reports 
