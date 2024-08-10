@@ -52,3 +52,16 @@ The business requirements for the application from client was the following:
 2. Model development and reporting: 
    * Build a machine learning model 
    * Generate adequate reports 
+
+## ML Business case 
+
+* From the given dataset, we want to construct an ML model that can predict if a cherry leaf contains powdery mildew or not. 
+
+* The purpose of the model will be the streamlining of verification of the status of a cherry tree, to determine whether it needs treatment or not. 
+
+* The model output will be put as a flag, with the ability to predict if a leaf contains powdery mildew or not, and give it the label of 'healthy' or 'powdery mildew'. The image will be uploaded directly into the application. 
+
+* The model success metrics has so far been set at 100% on the given test set 
+
+* The training data has been obtained from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves), with an image dataset consisting of 4208 images. The images have been uniformed to (256, 256, 3). 
+
