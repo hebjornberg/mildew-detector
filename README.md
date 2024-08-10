@@ -65,3 +65,7 @@ The business requirements for the application from client was the following:
 
 * The training data has been obtained from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves), with an image dataset consisting of 4208 images. The images have been uniformed to (256, 256, 3). 
 
+## Dashboard design 
+
+### Page 1: Quick Project Summary 
+
