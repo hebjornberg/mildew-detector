@@ -126,6 +126,13 @@ Project Hypothesis and Validation
 
 ![Train, Validation and Test Set](docs/images/ml-performance.png)
 
+* Train - healthy: 1472 images
+* Train - powdery_mildew: 1472 images
+* Validation - healthy: 210 images
+* Validation - powdery_mildew: 210 images
+* Test - healthy: 422 images
+* Test - powdery_mildew: 422 images
+
 * Model History 
 
 ![Model History](docs/images/model-history.png)
@@ -133,6 +140,8 @@ Project Hypothesis and Validation
 * Generalised Performance on Test Set 
 
 ![Generalised Performance](docs/images/gen-performance.png)
+
+The generalised performance of the app came to 100%. 
 
 ## Bugs 
 
