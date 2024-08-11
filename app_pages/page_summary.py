@@ -11,7 +11,7 @@ def page_summary_body():
         f"* Powdery mildew in cherry leaves are caused by the fungus Podosphaera clandestina.\n"
         f"Powdery mildew appears as patches of white, a powdery substance or a fungus-like growth.\n"
         f"* In order to determine whether a cherry tree is infested with powdery mildew, individual leaves are collected"
-        f"and examined. Visual criteria are used to detect powdery mildew.\n"
+        f" and examined. Visual criteria are used to detect powdery mildew.\n"
         f"This in order to save manual labour by doing a manual check of cherry trees individually.\n"
         f"**Project Dataset**\n"
         f"* The available dataset contains 4208 images from collected samples from cherry trees, that are healthy,"
