@@ -124,7 +124,7 @@ Project Hypothesis and Validation
 
 * Train, Validation and Test Set: Label Frequencies 
 
-![Train, Validation and Test Set](docs/images/gen-performance.png)
+![Train, Validation and Test Set](docs/images/ml-performance.png)
 
 * Model History 
 
