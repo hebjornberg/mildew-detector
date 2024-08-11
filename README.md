@@ -136,9 +136,54 @@ Project Hypothesis and Validation
 
 ## Bugs 
 
+When deploying the application, the slug size was too big and needed to be reduced in order for the application to be deployed successfully. A .slugignore-file was created, in order to reduce the slug size and not deploy data that is not necessary for the application to run successfully. 
+
 ## Deployment 
 
+The application has been deployed to Heroku. The live application can be found here [Mildew Detector](https://hb-mildew-detection-3fcc7e940ca3.herokuapp.com/). 
+
+* Create a runtime.txt-file with a Python version supported by the [Heroku-20](https://hb-mildew-detection-3fcc7e940ca3.herokuapp.com/) stack. 
+
+1. Login or sign up to [Heroku](https://www.heroku.com/).
+
+2. Create a new app 
+   - Click "New" in the upper right corner 
+   - Enter a unique app name
+   - Choose your region 
+   - Click "Create app" 
+
+3. Deploy the application 
+   - Go to the "Deploy" tab
+   - Under "Deployment method", choose GitHub
+   - Connect your GitHub-account if prompted 
+   - Connect your repository and click "Connect"
+   - Scroll to "Manual Deploy" 
+   - Choose the main branch 
+   - Click "Deploy branch" 
+
+4. Verify deployment 
+   - Wait for the building process to complete 
+   - Click "View" to view the deployed application 
+
 ## Main Data Analysis and Machine Learning Libraries 
+
+- **Pandas**: Manages and analyzes structured image data (e.g., filenames, labels, dimensions).
+
+- **NumPy**: Performs numerical operations on image data, crucial for preprocessing and model input preparation. 
+
+- **Matplotlib and Seaborn**: Create visualizations for model performance analysis, such as accuracy and loss plots. 
+
+- **Plotly**: Generates visualizations within the Streamlit app for detailed prediction exploration. 
+
+- **TensorFlow**: Open-source platform for machine learning, specializing in deep neural networks. 
+
+- **Shutil**: Provide file operations such as copying and removal. 
+
+- **Streamlit**: Enables creation of web applications for data science and machine learning projects. 
+
+- **Joblib**: Offers tools for lightweight pipelining in Python. 
+
+- **PIL**(Python Imaging Library): Free, open-source library that adds support for opening, manipulating and saving various image file formats in Python.  
 
 ## Credits 
 
