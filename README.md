@@ -143,6 +143,7 @@ When deploying the application, the slug size was too big and needed to be reduc
 The application has been deployed to Heroku. The live application can be found here [Mildew Detector](https://hb-mildew-detection-3fcc7e940ca3.herokuapp.com/). 
 
 * Create a runtime.txt-file with a Python version supported by the [Heroku-20](https://hb-mildew-detection-3fcc7e940ca3.herokuapp.com/) stack. 
+* Create a requirements.txt-file containing the Python libraries and modules needed for the application to run, in order for Heroku to install them successfully upon deployment. 
 
 1. Login or sign up to [Heroku](https://www.heroku.com/).
 
@@ -187,4 +188,14 @@ The application has been deployed to Heroku. The live application can be found h
 
 ## Credits 
 
-    
+- A special thank you to my mentor Precious Ljege for pointers on how to improve the project and explaining machine learning concepts in depth. 
+
+- Code Institute for providing learning material on predictive analysis and how to build an application performing it, as well as providing a premade template from which the project could be designed. 
+
+### Code
+
+The project has been designed from a walkthrough project provided by the Code Institute regarding detecting malaria in cells. The walkthrough project can be found here [Malaria Detection](https://github.com/Code-Institute-Solutions/WalkthroughProject01).
+
+### Dataset
+
+The dataset has been retrieved from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves).
