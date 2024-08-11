@@ -190,6 +190,8 @@ The application has been deployed to Heroku. The live application can be found h
 
 - A special thank you to my mentor Precious Ljege for pointers on how to improve the project and explaining machine learning concepts in depth. 
 
+- To my fellow students in the #community-sweden Slack-channel, that are always there to spitball ideas with and provide general encouragement as you move along through your project. 
+
 - Code Institute for providing learning material on predictive analysis and how to build an application performing it, as well as providing a premade template from which the project could be designed. 
 
 ### Code
