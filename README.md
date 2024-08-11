@@ -6,7 +6,7 @@ The app is built around a supervised ML model that performs binary classificatio
 
 [Live Application](https://hb-mildew-detection-3fcc7e940ca3.herokuapp.com/)
 
-![Device Mockup](/workspace/mildew-detector/docs/images/device-mockup.png)
+![Device Mockup](/docs/images/device-mockup.png)
 
 ## Dataset Content
 
@@ -71,7 +71,7 @@ In order to visualize and make the application user friendly, a dashboard of 5 p
 
 ### Page 1: Quick Project Summary 
 
-![image]
+![Quick Project Summary](/docs/images/summary.png)
 
 General Information:  
 
@@ -92,7 +92,7 @@ The project has 2 business requirements:
 
 ### Page 2: Image Study of Cherry Leaves 
 
-![image]
+![Image Study of Cherry Leaves](/docs/images/image-study.png)
 
 Cherry Leaf Visualizer
 
@@ -104,7 +104,7 @@ Cherry Leaf Visualizer
 
 ### Page 3: Mildew Detection
 
-![image]
+![Mildew Detection](docs/images/detection.png)
 
    * The client is interested in telling whether a given cherry leaf contains powdery mildew or not.
 
@@ -112,7 +112,7 @@ Cherry Leaf Visualizer
 
 ### Page 4: Project Hypothesis 
 
-![image]
+![Project Hypothesis](docs/images/hypo-validation.png)
 
 Project Hypothesis and Validation
 
@@ -124,15 +124,15 @@ Project Hypothesis and Validation
 
 * Train, Validation and Test Set: Label Frequencies 
 
-![image]
+![Train, Validation and Test Set](docs/images/gen-performance.png)
 
 * Model History 
 
-![image]
+![Model History](docs/images/model-history.png)
 
 * Generalised Performance on Test Set 
 
-![image]
+![Generalised Performance](docs/images/gen-performance.png)
 
 ## Bugs 
 
